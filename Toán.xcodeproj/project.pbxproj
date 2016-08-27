@@ -12,6 +12,11 @@
 		84BFA38D1D6D388E00644FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA38B1D6D388E00644FF0 /* Main.storyboard */; };
 		84BFA38F1D6D388E00644FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA38E1D6D388E00644FF0 /* Assets.xcassets */; };
 		84BFA3921D6D388E00644FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA3901D6D388E00644FF0 /* LaunchScreen.storyboard */; };
+		84BFA39F1D6D3BAE00644FF0 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA39A1D6D3BAE00644FF0 /* board.png */; };
+		84BFA3A01D6D3BAE00644FF0 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA39B1D6D3BAE00644FF0 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		84BFA3A11D6D3BAE00644FF0 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA39C1D6D3BAE00644FF0 /* note1.png */; };
+		84BFA3A21D6D3BAE00644FF0 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA39D1D6D3BAE00644FF0 /* note2.png */; };
+		84BFA3A31D6D3BAE00644FF0 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA39E1D6D3BAE00644FF0 /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		84BFA38E1D6D388E00644FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BFA3911D6D388E00644FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BFA3931D6D388E00644FF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BFA39A1D6D3BAE00644FF0 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		84BFA39B1D6D3BAE00644FF0 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		84BFA39C1D6D3BAE00644FF0 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		84BFA39D1D6D3BAE00644FF0 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		84BFA39E1D6D3BAE00644FF0 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		84BFA3861D6D388E00644FF0 /* Toán */ = {
 			isa = PBXGroup;
 			children = (
+				84BFA3991D6D3BAE00644FF0 /* Math 3 */,
 				84BFA3871D6D388E00644FF0 /* AppDelegate.swift */,
 				84BFA3891D6D388E00644FF0 /* ViewController.swift */,
 				84BFA38B1D6D388E00644FF0 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				84BFA3931D6D388E00644FF0 /* Info.plist */,
 			);
 			path = "Toán";
+			sourceTree = "<group>";
+		};
+		84BFA3991D6D3BAE00644FF0 /* Math 3 */ = {
+			isa = PBXGroup;
+			children = (
+				84BFA39A1D6D3BAE00644FF0 /* board.png */,
+				84BFA39B1D6D3BAE00644FF0 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				84BFA39C1D6D3BAE00644FF0 /* note1.png */,
+				84BFA39D1D6D3BAE00644FF0 /* note2.png */,
+				84BFA39E1D6D3BAE00644FF0 /* note3.png */,
+			);
+			path = "Math 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BFA39F1D6D3BAE00644FF0 /* board.png in Resources */,
 				84BFA3921D6D388E00644FF0 /* LaunchScreen.storyboard in Resources */,
 				84BFA38F1D6D388E00644FF0 /* Assets.xcassets in Resources */,
+				84BFA3A21D6D3BAE00644FF0 /* note2.png in Resources */,
+				84BFA3A11D6D3BAE00644FF0 /* note1.png in Resources */,
+				84BFA3A31D6D3BAE00644FF0 /* note3.png in Resources */,
 				84BFA38D1D6D388E00644FF0 /* Main.storyboard in Resources */,
+				84BFA3A01D6D3BAE00644FF0 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
