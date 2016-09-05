@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>popoverview.xcscheme</key>
+		<key>Popoverview.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>847A08C61D717E9E0078E9EC</key>
+		<key>84ABAE701D727FE500FC5CD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

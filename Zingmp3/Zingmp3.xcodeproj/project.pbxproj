@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A300C11D7D12BD0016ED8F /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84A300C01D7D12BD0016ED8F /* download.jpeg */; };
 		84C04F6D1D5C730200E0C30A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C04F6C1D5C730200E0C30A /* AppDelegate.swift */; };
 		84C04F6F1D5C730200E0C30A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C04F6E1D5C730200E0C30A /* ViewController.swift */; };
 		84C04F721D5C730200E0C30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C04F701D5C730200E0C30A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A300C01D7D12BD0016ED8F /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		84C04F691D5C730200E0C30A /* Zingmp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zingmp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C04F6C1D5C730200E0C30A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C04F6E1D5C730200E0C30A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		84C04F6B1D5C730200E0C30A /* Zingmp3 */ = {
 			isa = PBXGroup;
 			children = (
+				84A300C01D7D12BD0016ED8F /* download.jpeg */,
 				84C04F7E1D5C733000E0C30A /* zing-mp3.jpg */,
 				84C04F801D5C755600E0C30A /* images.jpeg */,
 				84C04F6C1D5C730200E0C30A /* AppDelegate.swift */,
@@ -133,6 +136,7 @@
 				84C04F771D5C730200E0C30A /* LaunchScreen.storyboard in Resources */,
 				84C04F741D5C730200E0C30A /* Assets.xcassets in Resources */,
 				84C04F721D5C730200E0C30A /* Main.storyboard in Resources */,
+				84A300C11D7D12BD0016ED8F /* download.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				84C04F7D1D5C730200E0C30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "847A08C61D717E9E0078E9EC"
-               BuildableName = "popoverview.app"
-               BlueprintName = "popoverview"
-               ReferencedContainer = "container:popoverview.xcodeproj">
+               BlueprintIdentifier = "84ABAE701D727FE500FC5CD5"
+               BuildableName = "Popoverview.app"
+               BlueprintName = "Popoverview"
+               ReferencedContainer = "container:Popoverview.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "847A08C61D717E9E0078E9EC"
-            BuildableName = "popoverview.app"
-            BlueprintName = "popoverview"
-            ReferencedContainer = "container:popoverview.xcodeproj">
+            BlueprintIdentifier = "84ABAE701D727FE500FC5CD5"
+            BuildableName = "Popoverview.app"
+            BlueprintName = "Popoverview"
+            ReferencedContainer = "container:Popoverview.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "847A08C61D717E9E0078E9EC"
-            BuildableName = "popoverview.app"
-            BlueprintName = "popoverview"
-            ReferencedContainer = "container:popoverview.xcodeproj">
+            BlueprintIdentifier = "84ABAE701D727FE500FC5CD5"
+            BuildableName = "Popoverview.app"
+            BlueprintName = "Popoverview"
+            ReferencedContainer = "container:Popoverview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "847A08C61D717E9E0078E9EC"
-            BuildableName = "popoverview.app"
-            BlueprintName = "popoverview"
-            ReferencedContainer = "container:popoverview.xcodeproj">
+            BlueprintIdentifier = "84ABAE701D727FE500FC5CD5"
+            BuildableName = "Popoverview.app"
+            BlueprintName = "Popoverview"
+            ReferencedContainer = "container:Popoverview.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
