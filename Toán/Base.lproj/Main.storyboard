@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cartoon-Springs-PPT-Backgrounds-1024x768.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FUH-uW-6nc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="yQz-y0-LTN">
                                 <rect key="frame" x="32" y="161" width="257" height="175"/>
                             </imageView>
@@ -85,47 +88,18 @@
                                     <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zo3-29-0bO"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iN-ga-Ba0">
-                                <rect key="frame" x="122" y="56" width="76" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRR-ZN-lWh">
-                                <rect key="frame" x="25" y="28" width="46" height="30"/>
-                                <state key="normal" title="Start">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="action_timer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rpz-Mr-Rts"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgK-ZJ-z9s">
-                                <rect key="frame" x="25" y="88" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Stop">
-                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="action_timer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jfk-iv-32E"/>
-                                    <action selector="stop_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U63-ev-YBF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="True" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2K-rb-PvR">
-                                <rect key="frame" x="251" y="26" width="46" height="34"/>
+                                <rect key="frame" x="20" y="67" width="46" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqw-VZ-Nfe">
-                                <rect key="frame" x="251" y="80" width="46" height="34"/>
+                                <rect key="frame" x="248" y="67" width="46" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cartoon-Springs-PPT-Backgrounds-1024x768.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FUH-uW-6nc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -134,10 +108,8 @@
                     <connections>
                         <outlet property="bt_p2" destination="jEc-NE-2hJ" id="lVW-Xg-hwe"/>
                         <outlet property="bt_p3" destination="hMT-gh-Vho" id="1wC-TM-NQr"/>
-                        <outlet property="bt_timer" destination="DRR-ZN-lWh" id="jui-ay-lcH"/>
                         <outlet property="lbl_p1" destination="2OG-Wg-cYY" id="4ix-7e-s4X"/>
                         <outlet property="lbl_p2" destination="Zai-iG-Dnk" id="Gz3-GK-5G7"/>
-                        <outlet property="lbl_timer" destination="6iN-ga-Ba0" id="3GD-Zd-ylp"/>
                         <outlet property="t_p1" destination="7kt-kQ-0BE" id="eAb-Rb-obD"/>
                     </connections>
                 </viewController>

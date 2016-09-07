@@ -17,18 +17,18 @@ class ViewController: UIViewController {
     
     
    
-    @IBOutlet weak var bt_timer: UIButton!
-    @IBOutlet weak var lbl_timer: UILabel!
-    var counter = 0
-    var timer = NSTimer()
+   // @IBOutlet weak var bt_timer: UIButton!
+   // @IBOutlet weak var lbl_timer: UILabel!
+   // var counter = 0
+   // var timer = NSTimer()
     
-    @IBAction func action_timer(sender: UIButton) {
-        timer.invalidate()
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
-    }
-    @IBAction func stop_action(sender: UIButton) {
-        timer.invalidate()
-    }
+   // @IBAction func action_timer(sender: UIButton) {
+    //    timer.invalidate()
+     //   timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+   // }
+   // @IBAction func stop_action(sender: UIButton) {
+   //     timer.invalidate()
+    //}
     
     override func viewDidLoad() {
         super.viewDidLoad()

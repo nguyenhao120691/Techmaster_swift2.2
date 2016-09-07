@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841241951D8021AD00CD205B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841241941D8021AD00CD205B /* Default-568h@2x.png */; };
 		84BFA3881D6D388E00644FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA3871D6D388E00644FF0 /* AppDelegate.swift */; };
 		84BFA38A1D6D388E00644FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA3891D6D388E00644FF0 /* ViewController.swift */; };
 		84BFA38D1D6D388E00644FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA38B1D6D388E00644FF0 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841241941D8021AD00CD205B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84BFA3841D6D388E00644FF0 /* Toán.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toán.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BFA3871D6D388E00644FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BFA3891D6D388E00644FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		84BFA37B1D6D388E00644FF0 = {
 			isa = PBXGroup;
 			children = (
+				841241941D8021AD00CD205B /* Default-568h@2x.png */,
 				84BFA3861D6D388E00644FF0 /* Toán */,
 				84BFA3851D6D388E00644FF0 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				84BFA39F1D6D3BAE00644FF0 /* board.png in Resources */,
 				84BFA3921D6D388E00644FF0 /* LaunchScreen.storyboard in Resources */,
+				841241951D8021AD00CD205B /* Default-568h@2x.png in Resources */,
 				84BFA38F1D6D388E00644FF0 /* Assets.xcassets in Resources */,
 				84BFA3A21D6D3BAE00644FF0 /* note2.png in Resources */,
 				84BFA3A11D6D3BAE00644FF0 /* note1.png in Resources */,
@@ -316,6 +320,7 @@
 				84BFA3981D6D388E00644FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
