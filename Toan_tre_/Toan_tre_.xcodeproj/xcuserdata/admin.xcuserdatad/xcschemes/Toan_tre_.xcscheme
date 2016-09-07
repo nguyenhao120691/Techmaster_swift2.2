@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84BFA3831D6D388E00644FF0"
-               BuildableName = "Toa&#x301;n.app"
-               BlueprintName = "Toa&#x301;n"
-               ReferencedContainer = "container:Toa&#x301;n.xcodeproj">
+               BlueprintIdentifier = "8412419E1D80239300CD205B"
+               BuildableName = "Toan_tre_.app"
+               BlueprintName = "Toan_tre_"
+               ReferencedContainer = "container:Toan_tre_.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84BFA3831D6D388E00644FF0"
-            BuildableName = "Toa&#x301;n.app"
-            BlueprintName = "Toa&#x301;n"
-            ReferencedContainer = "container:Toa&#x301;n.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84BFA3831D6D388E00644FF0"
-            BuildableName = "Toa&#x301;n.app"
-            BlueprintName = "Toa&#x301;n"
-            ReferencedContainer = "container:Toa&#x301;n.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84BFA3831D6D388E00644FF0"
-            BuildableName = "Toa&#x301;n.app"
-            BlueprintName = "Toa&#x301;n"
-            ReferencedContainer = "container:Toa&#x301;n.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

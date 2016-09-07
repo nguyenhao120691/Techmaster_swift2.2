@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Toán
+//  Toan_tre_
 //
-//  Created by Admin on 8/24/16.
+//  Created by Admin on 9/7/16.
 //  Copyright © 2016 nguyenhao. All rights reserved.
 //
 
