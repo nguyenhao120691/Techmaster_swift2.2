@@ -47,12 +47,14 @@ class ViewController: UIViewController {
         print(random1,random2)
         lbl_p1.text = String(random1)
         lbl_p2.text = String(random2)
-        setResult(random1, randomB : random2)
+        setResult(random1 , randomB : random2)
     }
     func setResult(randomA: Int, randomB: Int){
+        
+        
         bt_p1.setTitle(String(randomA), forState: .Normal)
         bt_p2.setTitle(String(randomA), forState: .Normal)
-        bt_p3.setTitle(String(sum (randomA, p2:randomB)), forState: .Normal)
+        bt_p3.setTitle(String(sum(randomA, p2:randomB)), forState: .Normal)
     }
     func sum(p1:Int,p2:Int) -> Int{
         return p1+p2;
