@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbl_p1: UILabel!
     @IBOutlet weak var lbl_p2: UILabel!
     
+    
+    @IBOutlet weak var lbl_True: UILabel!
+    
+    
+    
     @IBOutlet weak var bt_p1: UIButton!
     @IBOutlet weak var bt_p2: UIButton!
     @IBOutlet weak var bt_p3: UIButton!
@@ -44,25 +49,54 @@ class ViewController: UIViewController {
     func setRandom(){
         let random1 = Int(arc4random_uniform(4) + 1)
         let random2 = Int(arc4random_uniform(4) + 1)
-        print(random1,random2)
+        
         lbl_p1.text = String(random1)
         lbl_p2.text = String(random2)
-        setResult(random1 , randomB : random2)
+        setResult(random1, randomB : random2)
     }
     func setResult(randomA: Int, randomB: Int){
         
         
-        bt_p1.setTitle(String(randomA), forState: .Normal)
-        bt_p2.setTitle(String(randomA), forState: .Normal)
-        bt_p3.setTitle(String(sum(randomA, p2:randomB)), forState: .Normal)
+
+        let random = arc4random_uniform(3) + 1
+
+        //print(random)
+        
+        if(random == 1 ){
+            bt_p3.setTitle(String(sum(randomA, p2:randomB)+1), forState: .Normal)
+            bt_p2.setTitle(String(sum(randomA, p2:randomB)-1), forState: .Normal)
+            bt_p1.setTitle(String(sum(randomA, p2:randomB)), forState: .Normal)
+        } else if(random == 2){
+            bt_p3.setTitle(String(sum(randomA, p2:randomB)-1), forState: .Normal)
+            bt_p1.setTitle(String(sum(randomA, p2:randomB)+1), forState: .Normal)
+            bt_p2.setTitle(String(sum(randomA, p2:randomB)), forState: .Normal)
+        } else if(random == 3){
+            bt_p1.setTitle(String(sum(randomA, p2:randomB)+2), forState: .Normal)
+            bt_p2.setTitle(String(sum(randomA, p2:randomB)-1), forState: .Normal)
+            bt_p3.setTitle(String(sum(randomA, p2:randomB)), forState: .Normal)
+        }
+        
+      
+   
+    
     }
+    
     func sum(p1:Int,p2:Int) -> Int{
         return p1+p2;
     }
     
     @IBAction func bt_action(sender: AnyObject) {
+     
+         //   let a:Int? = Int(lbl_p1.text!)
+         //   let b:Int? = Int(lbl_p2.text!)
+          //  let c:Int? = a!+b!
+          //  print(c)
+        
         setRandom()
+        
+              }
     }
-       }
 
 
+
+       

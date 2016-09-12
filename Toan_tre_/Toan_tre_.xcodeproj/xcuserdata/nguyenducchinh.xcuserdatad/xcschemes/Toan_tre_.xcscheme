@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8412420C1D802EC300CD205B"
-               BuildableName = "The_poppop.app"
-               BlueprintName = "The_poppop"
-               ReferencedContainer = "container:The_poppop.xcodeproj">
+               BlueprintIdentifier = "8412419E1D80239300CD205B"
+               BuildableName = "Toan_tre_.app"
+               BlueprintName = "Toan_tre_"
+               ReferencedContainer = "container:Toan_tre_.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8412420C1D802EC300CD205B"
-            BuildableName = "The_poppop.app"
-            BlueprintName = "The_poppop"
-            ReferencedContainer = "container:The_poppop.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8412420C1D802EC300CD205B"
-            BuildableName = "The_poppop.app"
-            BlueprintName = "The_poppop"
-            ReferencedContainer = "container:The_poppop.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8412420C1D802EC300CD205B"
-            BuildableName = "The_poppop.app"
-            BlueprintName = "The_poppop"
-            ReferencedContainer = "container:The_poppop.xcodeproj">
+            BlueprintIdentifier = "8412419E1D80239300CD205B"
+            BuildableName = "Toan_tre_.app"
+            BlueprintName = "Toan_tre_"
+            ReferencedContainer = "container:Toan_tre_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

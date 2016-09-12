@@ -15,3 +15,24 @@ if let removevalue = dictionlary.removeValueForKey("hao")
 print(dictionlary)
 }
 
+
+var i = 5
+var r = 5
+
+print(i+r)
+
+func sayHelloAgain(personName: String) -> String {
+    return "Hello again, " + personName + "!"
+}
+print(sayHelloAgain("Anna"))
+
+func printString(words : String...){
+var  result = ""
+    for word in words{
+    result += word
+    result += " "}
+
+print(result)
+    
+}
+

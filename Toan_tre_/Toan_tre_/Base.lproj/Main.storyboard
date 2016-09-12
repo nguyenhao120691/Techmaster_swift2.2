@@ -32,20 +32,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="note1.png" translatesAutoresizingMaskIntoConstraints="NO" id="dGT-uN-Lkd">
                                 <rect key="frame" x="14" y="405" width="90" height="91"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgL-Wn-XNZ">
-                                <rect key="frame" x="137" y="436" width="46" height="30"/>
-                                <state key="normal" title="5"/>
-                                <connections>
-                                    <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5b-f9-ixK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-Oe-IIN">
-                                <rect key="frame" x="36" y="436" width="46" height="30"/>
-                                <state key="normal" title="5"/>
-                                <connections>
-                                    <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Va-Oa-4pS"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEl-sG-Frb">
                                 <rect key="frame" x="57" y="226" width="38" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -70,12 +56,36 @@
                                 <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgL-Wn-XNZ">
+                                <rect key="frame" x="138" y="436" width="46" height="30"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5b-f9-ixK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-Oe-IIN">
+                                <rect key="frame" x="37" y="436" width="46" height="30"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Va-Oa-4pS"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9s-Mo-pTL">
-                                <rect key="frame" x="242" y="436" width="46" height="30"/>
+                                <rect key="frame" x="243" y="436" width="46" height="30"/>
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="bt_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P7Z-RK-ogu"/>
                                 </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1L-wP-b42">
+                                <rect key="frame" x="57" y="72" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ms2-YH-tZD">
+                                <rect key="frame" x="237" y="82" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJY-3U-ny8">
                                 <rect key="frame" x="223" y="228" width="46" height="30"/>
@@ -84,18 +94,6 @@
                                     <color key="titleColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="False" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Jn-wk-VH4">
-                                <rect key="frame" x="254" y="62" width="40" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="True" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0r9-OX-e7X">
-                                <rect key="frame" x="45" y="62" width="35" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -107,6 +105,7 @@
                         <outlet property="bt_p1" destination="lGJ-Oe-IIN" id="MfF-32-5WG"/>
                         <outlet property="bt_p2" destination="DgL-Wn-XNZ" id="Ekv-le-m3j"/>
                         <outlet property="bt_p3" destination="v9s-Mo-pTL" id="1MA-xh-6h4"/>
+                        <outlet property="lbl_True" destination="F1L-wP-b42" id="SWl-gM-uyM"/>
                         <outlet property="lbl_p1" destination="gEl-sG-Frb" id="Ef7-WS-Ikn"/>
                         <outlet property="lbl_p2" destination="x0E-sD-W5c" id="aEr-jb-VzY"/>
                     </connections>
